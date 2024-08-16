@@ -41,3 +41,12 @@ body {
 .dark {
     background-color: rgb(75, 75, 75);
 }
+
+.imgGame {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.imgGame button{
+    align-self: center;
+}
