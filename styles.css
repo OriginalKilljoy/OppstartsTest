@@ -50,3 +50,27 @@ body {
 .imgGame button{
     align-self: center;
 }
+
+.bodypart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.noLayout{
+    display: block;
+}
+.verticalLayout{
+    display: flex;
+    flex-direction: column;
+}
+.horisontalLayout{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.gridLayout{
+    display: grid;
+    grid-template-columns: repeat(2,520px);
+    width: auto;
+}
